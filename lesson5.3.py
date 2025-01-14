@@ -10,4 +10,4 @@ for p in string.punctuation:
 
 hashtag = ("#" + cleaned_string)[:140]
 
-print(hashtag
+print(hashtag)
