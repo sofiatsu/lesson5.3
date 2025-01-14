@@ -8,11 +8,6 @@ cleaned_string = capital.replace(" ","")
 for p in string.punctuation:
     cleaned_string = cleaned_string.replace(p, "")
 
-hashtag = "#" + cleaned_string
-
-if len(hashtag) > 140:
-    hashtag = hashtag[:140]
+hashtag = ("#" + cleaned_string)[:140]
 
 print(hashtag)
-
-
